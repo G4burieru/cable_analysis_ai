@@ -51,6 +51,7 @@ class ObjectDetection:
                     cv2.putText(image, f"{center_x}, {center_y}", (int(xyxy[0][0]), int(xyxy[0][1])-6), self.font, self.fontScale, (255, 255, 255), 2, cv2.LINE_AA) 
                     
                 
+            cv2.rectangle(image, (0, 200), (640, 350), (0, 255, 0), 1)
             path = f'centroids/{self.counter}.jpg'
             print(path)
             self.counter += 1
