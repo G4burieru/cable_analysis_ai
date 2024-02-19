@@ -4,9 +4,9 @@ nc: 1
 roboflow:
   license: MIT
   project: cable_analysis
-  url: https://universe.roboflow.com/cableanalysis/cable_analysis/dataset/1
+  url: https://universe.roboflow.com/cableanalysis/cable_analysis/dataset/1 #url to the dataset
   version: 1
   workspace: cableanalysis
-test: C:\Users\Gabriel\Documents\cable_analysis\test
-train: C:\Users\Gabriel\Documents\cable_analysis\train
-val: C:\Users\Gabriel\Documents\cable_analysis\valid
+test: C:\Users\Gabriel\Documents\cable_analysis\test #absolute path for the test images
+train: C:\Users\Gabriel\Documents\cable_analysis\train #absolute path for the train images
+val: C:\Users\Gabriel\Documents\cable_analysis\valid #absolute path for the valid images
